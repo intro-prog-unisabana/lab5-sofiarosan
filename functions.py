@@ -1,14 +1,9 @@
 def promedio_estudiante(calificaciones):
     media = sum(calificaciones)/len(calificaciones)
     return media
+#Lista de calificaciones
+calificaciones = [85, 92, 78]
 
-calificaciones = []
-while True:
-    calificacion =input()
-    if calificacion.isdecimal():
-        calificaciones.append(float(calificacion))
-    else:
-        break
-
+#Calcular el promedio
 promedio = promedio_estudiante(calificaciones)
 print(promedio)
