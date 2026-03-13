@@ -1,5 +1,6 @@
 def promedio_estudiante(calificaciones):
-    return sum(calificaciones)/len(calificaciones)
+    media = sum(calificaciones)/len(calificaciones)
+    return media
 
 calificaciones = []
 while True:
