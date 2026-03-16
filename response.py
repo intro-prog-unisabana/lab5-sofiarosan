@@ -1,8 +1,10 @@
 def input_response (secret_number, user_input):
 
-    if user_input == secret_number:
-        return "correct"
+    if user_input > secret_number:
+        return "Too high! Try a lower number.", False
     elif user_input < secret_number:
-        return "low"
+        return "Too low! Try a higher number.", False
     else :
-        return "high"
+        return "Correct! You guessed the number!", True 
+    
+    
