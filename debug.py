@@ -6,6 +6,7 @@ def find_max(a, b, c):
     max_number = b
   else:
     max_number = c
+  return max_number
 
 #FREEZE CODE BEGIN
 x = int(input("Enter a number:\n"))
