@@ -1,5 +1,5 @@
 def find_max(a, b, c):
-  max_number 
+  max_number= a
   if a > b and a > c:
     max_number = a
   elif b > a and b > c:
