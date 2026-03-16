@@ -21,7 +21,7 @@ while True:
     if operation=="add":
         result= add(num1, num2)
     elif operation== "subtract":
-        result= subtract(num1, num2)
+        result= sub(num1, num2)
     elif operation == "multiply":
         result = multiply(num1, num2)
     elif operation == "divide":
@@ -31,7 +31,7 @@ while True:
     elif operation == "modulo" :
         result = modulo(num1, num2)
     elif operation == "floor_divide" :
-        result == floor_divide(num1, num2)
+        result = floor_divide(num1, num2)
     
     if isinstance (result, str):
         print(result)
