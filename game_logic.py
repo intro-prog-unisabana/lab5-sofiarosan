@@ -22,6 +22,5 @@ def main():
             print(f"It took you {tries} tries!")
             break
 
-
-if __name__ == "__main__":
-    main()
+main ()
+    
